@@ -91,3 +91,33 @@ Aqui se añadira toda la informacion para el desarrollo del proyecto
 
 
 **Instrucciones de Ejecución**
+## Pasos realizados
+
+### 1. Crear carpeta del proyecto
+Primero se creó una carpeta llamada **Libris**, dentro de la cual se trabajará el proyecto.
+
+bash
+mkdir Libris
+cd Libris.
+### 2. Crear entorno virtual e instalar Django
+
+Dentro de la carpeta se creó un entorno virtual de Python y se instaló Django:
+python -m venv venv
+source venv/bin/activate
+pip install django
+### 3. Verificar la instalacion
+django-admin --version
+
+### 4. Crear el proyecto Django
+django-admin startproject Libris
+cd Libris
+
+### 5. Ejecutar el proyecto
+python manage.py runserver
+
+
+
+
+
+
+
