@@ -3,7 +3,11 @@ Repositorio para el desarrollo de la aplicacion de una biblioteca virtual
 
 Aqui se añadira toda la informacion para el desarrollo del proyecto
 
+
+
 **Requerimientos del Proyecto**
+
+
 
 **Requisitos Funcionales**
 
@@ -29,6 +33,8 @@ Aqui se añadira toda la informacion para el desarrollo del proyecto
 
 * RF11. El sistema indicará el estado de las obras (finalizado, en pausa o en emisión).
 
+
+
 **Requisitos No Funcionales**
 
 * RNF1. Las contraseñas deberán tener mínimo 8 caracteres, con mayúsculas, minúsculas, números y al menos un carácter especial.
@@ -46,6 +52,7 @@ Aqui se añadira toda la informacion para el desarrollo del proyecto
 * RNF7. La interfaz debe ser intuitiva, diferenciando claramente las secciones de Educación y Entretenimiento.
 
 
+
 **Arquitectura Seleccionada**
 
 * Cliente (Frontend): Navegador web con HTML5, CSS3, JavaScript. Opcional: Templates Django.
@@ -55,6 +62,7 @@ Aqui se añadira toda la informacion para el desarrollo del proyecto
 * Base de datos: MySQL, gestionada mediante el ORM de Django.
 
 * Patrón: MVC (Modelo Vista Controlador)
+
 
 
 **Estándares de Codificación Adoptados**
@@ -70,6 +78,7 @@ Aqui se añadira toda la informacion para el desarrollo del proyecto
 * Uso de claves primarias con id autoincremental.
 
 
+
 **Flujo de Trabajo con Gitflow** 
 
 * Branch principal: main → siempre estable.
@@ -78,6 +87,7 @@ Aqui se añadira toda la informacion para el desarrollo del proyecto
   * feature/nombre → nuevas funcionalidades.
   * release/x.x.x → preparar una versión.
   * hotfix/nombre → arreglos críticos en producción.
+
 
 
 **Instrucciones de Ejecución**
